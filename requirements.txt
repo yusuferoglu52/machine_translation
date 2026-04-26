@@ -1,0 +1,23 @@
+# PyTorch (CUDA 12.1 — RTX 3060)
+# Install separately:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch>=2.5.0
+torchvision>=0.20.0
+torchaudio>=2.5.0
+
+# Data pipeline
+datasets>=4.8.0
+tokenizers>=0.22.0
+numpy>=1.23.0
+huggingface_hub>=1.11.0
+
+# Evaluation
+sacrebleu>=2.6.0
+
+# Notebook & visualization
+jupyter_client>=8.0.0
+ipykernel>=7.0.0
+matplotlib>=3.7.0
+
+# Utilities
+tqdm>=4.65.0
